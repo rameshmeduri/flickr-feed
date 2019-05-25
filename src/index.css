@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Loading Component */
+.Loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 100px;
+}
+
+/* Search Component */
+.Search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.Search__input {
+  max-width: 300px;
+}
+
+/* Photo Component */
+.Photo {
+  padding: 1rem 1.5rem;
+  border: 1px solid lightslategray;
+  border-radius: 12px;
+}
+
+.Photo figure {
+  min-height: 100px;
+}
+
+.Photo__Headline {
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.Photo__Title {
+  font-size: 1.2rem;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.Photo__Author {
+  display: block;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.Photo__Description {
+  margin-bottom: 1rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.Photo__Tags {
+  max-height: 150px;
+  overflow-y: scroll;
+}
+
+.Photo__Tag {
+  display: inline-block;
+  padding: 2px 5px;
+  margin-bottom: 0.1rem;
+  background: lightskyblue;
+  border-radius: 8px;
+  word-break: break-all;
+}
+
+.Photo__Tag:not(:last-child) {
+  margin-right: 0.25rem;
+}
