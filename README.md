@@ -1,7 +1,7 @@
 ### Flickr feed viewer and search -- Web Application
 ---
-> reads data from Flickr's public feed & displays the images
-> search box should return images with the relevant tags
+> reads data from Flickr's public feed & displays the images  
+> search box should return images with the relevant tags  
 
 
 #### Tech Stack
